@@ -1,4 +1,4 @@
-![ArtGallery Demo](https://github.com/shamikaredkar/ArtGallery/blob/main/ArtGalleryPreview.gif)
+![Pricing Plan Demo](https://github.com/shamikaredkar/Pricing-Panel/blob/main/Pricing-Plan-Preview.png)
 ### Purpose:
 
 The purpose of the Pricing-Plan Project is to present various service subscription options in a clear and appealing format, allowing potential customers to easily compare features and costs associated with each plan. The project aims to facilitate the decision-making process for users seeking to subscribe to a service, with emphasis on simplicity and ease of navigation.
@@ -40,7 +40,7 @@ HTML, CSS, External Fonts (Google Fonts)
 - **`<span>`**: Displaying the price
 - **`<a>`**: Functioning as a signup or trial button
 
-##CSS
+## CSS
 </aside>
 
 **app.css —**  This stylesheet applies custom styles to the pricing plans, including:
@@ -99,15 +99,15 @@ HTML, CSS, External Fonts (Google Fonts)
     }
 }
 ```
-***Panel Layout:***
+**Panel Layout:**
 - The `.panel` class changes the layout direction to a row using `flex-direction: row.` This means that on screens wider than 900 pixels, the pricing plans will be arranged side by side instead of stacking vertically.
 
-***Individual Pricing Plan Style Adjustments:***
+**Individual Pricing Plan Style Adjustments:**
 
 - The `.pricing-plan` class has its bottom border removed with `border-bottom: none`, ensuring there is no border at the bottom of each plan when side by side.
 - A right border is added with `border-right: 1px solid #e1f1ff` to separate each plan visually.
 - Padding is adjusted to `25px 50px` to provide more space inside each pricing plan, allowing for a more airy and less congested display of the plans' content.
 
-***Last Pricing Plan Adjustment:***
+**Last Pricing Plan Adjustment:**
 
 - The `.pricing-plan:last-child` selector targets the last pricing plan to ensure that it does not have a right border with `border-right: none.` This prevents a border from appearing on the far right edge of the pricing table, which would be unnecessary and could disrupt the clean layout.
