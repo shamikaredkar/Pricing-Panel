@@ -1,4 +1,5 @@
 ![Pricing Plan Demo](https://github.com/shamikaredkar/Pricing-Panel/blob/main/Pricing-Plan-Preview.png)
+
 ### Purpose:
 
 The purpose of the Pricing-Plan Project is to present various service subscription options in a clear and appealing format, allowing potential customers to easily compare features and costs associated with each plan. The project aims to facilitate the decision-making process for users seeking to subscribe to a service, with emphasis on simplicity and ease of navigation.
